@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(48, 19, 48)
+}
+.item-description{
+    padding: 5px;
+    background-color: white;
+    border-color: green;
+}
+
+.item-completed:checked + .item-description{
+    text-decoration: line-through;
+    background-color: gray;
+    border-color: red;
+}
+
+input{
+    color: purple;
+    font-weight: 700;
+}
+
+#add{
+    padding: 8px 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    background-color: green;
+    cursor: pointer;
+}
